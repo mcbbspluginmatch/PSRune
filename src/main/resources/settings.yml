@@ -1,0 +1,4 @@
+name: PSRune
+version: ${project.version}
+main: me.wuxie.psrune.PSRune
+authors: [wuxie]

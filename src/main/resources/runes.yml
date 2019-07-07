@@ -1,0 +1,23 @@
+符文1:
+  showSign: '&c♥'
+  id: "REDSTONE"
+  name: '&c野性之心'
+  lore:
+  - '&7野性的召唤'
+  - '&7激发始祖遗留的潜力'
+  attribute:
+  - '攻击力 +100'
+  - '生命值 +100'
+  enchantment:
+  - DAMAGE_ALL:1
+  flags:
+  - HIDE_ENCHANTS
+符文2:
+  showSign: '&e○'
+  id: "351:14"
+  name: '&c圣护之环'
+  lore:
+  - '&7神灵的圣护光环'
+  - '&7受神力所加持'
+  attribute:
+  - '生命值 +1000'
