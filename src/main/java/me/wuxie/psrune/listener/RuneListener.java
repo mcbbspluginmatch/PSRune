@@ -25,10 +25,13 @@ public class RuneListener implements Listener {
     }
     @EventHandler
     public void onClick(InventoryClickEvent e){
-        if(e.getClickedInventory()==null)return;
+        if(e.getInventory()==null)return;
         if(e.getSlot()==-1)return;
-        if(e.getClickedInventory().getHolder() instanceof Holder){
+        if(e.getInventory().getHolder() instanceof Holder){
             e.setCancelled(true);
+            if(e.getClickedInventory()!=null&& !(e.getClickedInventory().getHolder() instanceof Holder)){
+                e.setCancelled(false);
+            }
             Player player = (Player) e.getWhoClicked();
             Inventory inv = e.getClickedInventory();
             Holder holder = (Holder) inv.getHolder();

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PSRune:jar">
+    <output-path>E:/1.12.2wx/1.12.2wx/plugins/plugins/PlugStats/plugins</output-path>
+    <root id="archive" name="PSRune.jar">
+      <element id="module-output" name="PSRune" />
+    </root>
+  </artifact>
+</component>
