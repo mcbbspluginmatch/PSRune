@@ -80,7 +80,7 @@ public final class PSRune extends AbstractSign {
                         if(l.contains(mp.getKey())){
                             int num = StringUtil.countMatches(l,mp.getKey());
                             for(int a=0;a<num;){
-                                a+=1;
+                                a+=1; // 为什么自增要放进来 —— 754503921
                                 data.addAttributes(mp.getValue());
                             }
                         }

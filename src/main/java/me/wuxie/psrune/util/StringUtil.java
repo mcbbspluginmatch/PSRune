@@ -2,6 +2,7 @@ package me.wuxie.psrune.util;
 
 import java.util.Random;
 
+// 私货 —— 754503921
 public class StringUtil {
     /**
      *  替换指定位置字符

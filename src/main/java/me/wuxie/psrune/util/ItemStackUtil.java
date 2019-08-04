@@ -21,7 +21,7 @@ public class ItemStackUtil {
             if(isNumber(materialid)){
                 material = Material.getMaterial(Integer.parseInt(materialid));
             }else material = Material.getMaterial(materialid);
-            data = Short.valueOf(id.split(":")[1]);
+            data = Short.valueOf(id.split(":")[1]); // 未进行异常处理 —— 754503921
         }else {
             if(isNumber(id)){
                 material = Material.getMaterial(Integer.parseInt(id));

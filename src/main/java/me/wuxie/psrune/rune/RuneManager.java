@@ -38,6 +38,7 @@ public class RuneManager {
         runeMap = new HashMap<>();
         attributeDataMap = new HashMap<>();
         for(String key:runeYml.getKeys(false)){
+            // 学会使用 ConfigurationSection —— 754503921
             String showSign = runeYml.getString(key+".showSign");
             AttributeData attributeData = PlugStats.getAttributeManager().getLoreAttributeData(runeYml.getStringList(key+".attribute"));
             String id = runeYml.getString(key+".id");
